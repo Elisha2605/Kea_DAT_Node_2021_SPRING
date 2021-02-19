@@ -1,0 +1,16 @@
+Assignment  : // Design an API that does CRUD on a noun in a text file/ spreadsheet
+
+
+List of students = {"Pia", "Jon", "Mikel", "Peter", "Mia",...}
+
+
+Method                  Endpoint                                        Endpoint                             Exemple
+                      | students |                                   | students/id |
+---------------------------------------------------------------------------------------------------------------------------
+GET                   Retrive all students                           Get student by id                    GET | students  / GET student/13
+---------------------------------------------------------------------------------------------------------------------------
+POST                  Create several or single students              create a student and tell what id    POST | students  / POST student/13
+---------------------------------------------------------------------------------------------------------------------------
+PUT/PATCH             Update a list/all students                     Update student by id                 PUT | students   / PUT student/13
+---------------------------------------------------------------------------------------------------------------------------
+DELETE                Delete all the students                        Delete student by id                 DELETE | students  / DELETE student/13
