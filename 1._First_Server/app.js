@@ -12,7 +12,7 @@ app.get("/welcome", (req, res) => {
 
 app.get("/me", (req, res) => {
     res.send({
-        "Aïcha": "is my life"
+        "Aïcha": "is my life "
     })
 });
 
